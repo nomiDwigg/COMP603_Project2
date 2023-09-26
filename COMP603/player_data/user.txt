@@ -1,0 +1,9 @@
+Name : default
+Chips : 100
+Games Won : 0
+Games Lost : 0
+Games Played : 0
+Best Hand : High-Card
+Location : -1
+Added to Pot : 0
+Folded : false
