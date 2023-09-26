@@ -1,0 +1,11 @@
+Bluff : 60
+Fold : 40
+Chips : 100
+Added to Pot : 0
+Folded : false
+Games Won : 0
+Games Lost : 0
+High Card : 11
+Pair : 3
+Two Pair : 3
+Three of a Kind : 2
