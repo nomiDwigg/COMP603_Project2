@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <Properties>
+    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+      <Color blue="ff" green="ff" red="ff" type="rgb"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="playButton" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="quitButton" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="panelKeyboardInput" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jScrollPane1" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jScrollPane2" alignment="0" pref="589" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="panelHeader" min="-2" pref="514" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+              <Component id="panelHeader" min="-2" pref="59" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Component id="jScrollPane2" min="-2" pref="144" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="57" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="panelKeyboardInput" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="playButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="quitButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="54" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="panelText">
+          <Properties>
+            <Property name="editable" type="boolean" value="false"/>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="ff" green="ff" red="ff" type="rgb"/>
+            </Property>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="18" style="0"/>
+            </Property>
+            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="33" green="33" red="ff" type="rgb"/>
+            </Property>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="panelHeader">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="labelFor" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+          <ComponentRef name="Form"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Welcome to Texas Hold &apos;em Poker!"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="playButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="play"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="playButtonMouseEntered"/>
+        <EventHandler event="mouseExited" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="playButtonMouseExited"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="playButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="panelKeyboardInput">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="please enter your name here"/>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.SoftBevelBorderInfo">
+            <BevelBorder bevelType="1">
+              <Color PropertyName="highlightOuter" blue="0" green="0" red="0" type="rgb"/>
+              <Color PropertyName="highlightInner" blue="0" green="0" red="0" type="rgb"/>
+              <Color PropertyName="shadowOuter" blue="cc" green="cc" red="cc" type="rgb"/>
+              <Color PropertyName="shadowInner" blue="cc" green="cc" red="cc" type="rgb"/>
+            </BevelBorder>
+          </Border>
+        </Property>
+        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+          <Color id="Text Cursor"/>
+        </Property>
+        <Property name="inputVerifier" type="javax.swing.InputVerifier" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new NameInput()" type="code"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="quitButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="quit"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="menuSubHeader">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="sansserif" size="18" style="0"/>
+            </Property>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Please enter your name and press play to start. &#xa;Names cannot contain special characters or numbers.&#xa;Names must be between 3 and 20 characters. &#xa;Names cannot be user or easy. "/>
+            <Property name="wrapStyleWord" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
