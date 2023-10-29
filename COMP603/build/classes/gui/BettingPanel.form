@@ -234,6 +234,7 @@
             <Property name="selectionColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="0" green="0" red="ff" type="rgb"/>
             </Property>
+            <Property name="selectionEnd" type="int" value="1"/>
           </Properties>
         </Component>
       </SubComponents>
@@ -243,6 +244,9 @@
         <Property name="text" type="java.lang.String" value="Check"/>
         <Property name="opaque" type="boolean" value="true"/>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="checkButtonActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="raiseButton">
       <Properties>
@@ -254,6 +258,9 @@
           <Dimension value="[72, 31]"/>
         </Property>
       </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="raiseButtonActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="foldButton">
       <Properties>
