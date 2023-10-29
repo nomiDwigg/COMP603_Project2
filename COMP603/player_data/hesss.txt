@@ -1,0 +1,9 @@
+Folded : false
+Best Hand : High-Card
+Name : /hesss
+Games Played : 0
+Games Lost : 0
+Chips : 100
+Games Won : 0
+Added to Pot : 0
+Location : 2
